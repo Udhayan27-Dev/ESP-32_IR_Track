@@ -6,6 +6,8 @@ A real-time hardware positioning and magnetic mover simulation system powered by
 
 ## 🚀 Overview
 
+![ESP32 Web Dashboard Screenshot](assets/dashboard_screenshot.png)
+
 The system monitors a 6-junction linear track where a magnetic cart/bot moves. As the physical bot passes over each IR sensor:
 - The corresponding **Blue LED (North Pole)** lights up at the detected junction.
 - The next **Red LED (South Pole)** lights up at `junction + 1` to indicate the forward magnetic pull.
