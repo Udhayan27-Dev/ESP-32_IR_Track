@@ -61,7 +61,13 @@ The ESP32 runs in dual Wi-Fi mode (**WIFI_AP_STA**):
 ### Dashboard Features
 - **Real-Time Linear Track**: Smoothly animated bot carriage traversing a straight rail between stations `J1` and `J6`.
 - **Live Hardware Connection Tab**: Displays live connection status with pulsing indicators.
-- **Hardware Telemetry Matrix**: Displays real-time states for each IR input and active/inactive LED drivers.
+- **Linear Position Telemetry**: Live readout of the active station, hardware link status, and active North/South pole LEDs.
+- **Hardware Telemetry Matrix**: Displays real-time states for each IR input and active/inactive LED drivers across all 6 stations.
+
+#### 📊 Live Telemetry & Matrix Views
+| Linear Position Telemetry | Linear 6-Station Hardware Matrix |
+| :---: | :---: |
+| ![Linear Position Telemetry](assets/telemetry_panel.png) | ![Linear 6-Station Hardware Matrix](assets/hardware_matrix.png) |
 
 ---
 
